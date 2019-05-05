@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#444"
+    android:background="#573939"
     android:padding="20dp"
     android:layout_margin="10dp">
 
@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/itemName"
-        android:textColor="#ffffff"
+        android:textColor="#EF0303"
         android:layout_width="match_parent"
         android:textAlignment="center"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/itemName"
-        android:textColor="#ffffff"
+        android:textColor="#EF0303"
         android:layout_marginTop="15dp"
         android:fontFamily="cursive"
         android:textAlignment="textEnd"

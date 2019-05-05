@@ -6,6 +6,12 @@
     android:orientation="vertical"
     tools:context=".fragments.LoginFragment">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textSize="30dp"
+        />
     <EditText
         android:id="@+id/loginUsername"
         android:hint="Enter username..."
@@ -13,6 +19,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:padding="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="30dp"
         />
 
     <EditText

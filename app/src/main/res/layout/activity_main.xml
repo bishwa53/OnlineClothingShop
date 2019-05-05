@@ -10,23 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Online Clothing Shop!"
-        android:textSize="40dp"
-        android:textColor="#ffffff"
+        android:background="#80444444"
         android:fontFamily="cursive"
         android:padding="30dp"
-        android:background="#80444444"
+        android:text="Online Clothing Shop!"
         android:textAlignment="center"
-        android:layout_centerVertical="true"
-        />
+        android:textColor="#7A1D1D"
+        android:textSize="40dp" />
 
     <Button
         android:id="@+id/btnGetStarted"
-        android:text="Get Started!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#B3FFFB00"
-        />
+        android:layout_marginBottom="13dp"
+        android:background="#B3C20C2B"
+        android:text="click here" />
 
 </RelativeLayout>

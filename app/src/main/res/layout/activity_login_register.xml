@@ -14,16 +14,16 @@
         android:textSize="40dp"
         android:fontFamily="cursive"
         android:textAlignment="center"
-        android:background="#eeeeee"
-        android:text="Member Area"/>
+        android:background="#843C3C"
+        android:text=" Login/Register"/>
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="#444444"
-        app:tabSelectedTextColor="#ffffff"
-        app:tabTextColor="#eeeeee"/>
+        android:background="#947979"
+        app:tabSelectedTextColor="#352424"
+        app:tabTextColor="#5C0808"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/theViewPager"

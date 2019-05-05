@@ -12,9 +12,9 @@
         android:text="Dashboard"
         android:textAlignment="center"
         android:textSize="35dp"
-        android:textColor="#ffffff"
+        android:textColor="#362F2F"
         android:padding="20dp"
-        android:background="#111111"
+        android:background="#481515"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#222222"
+        android:background="#905050"
         android:layout_weight="1">
     </android.support.v7.widget.RecyclerView>
 
@@ -39,17 +39,17 @@
             android:id="@+id/btnLogout"
             android:layout_toRightOf="@id/fakeView"
             android:text="Logout"
-            android:background="#c23616"
-            android:textColor="#ffffff"
+            android:background="#893A29"
+            android:textColor="#171313"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/addItemOpener"
             android:text="Add Item"
-            android:background="#f3f3f3f3"
+            android:background="#4CAF50"
             android:layout_toLeftOf="@id/fakeView"
-            android:textColor="#000000"
+            android:textColor="#2B2525"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </RelativeLayout>
